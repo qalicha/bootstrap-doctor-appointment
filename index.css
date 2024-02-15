@@ -1,0 +1,30 @@
+.section-1{
+    background-color: rgb(134, 134, 178);
+}
+
+.marque{
+    overflow: hidden;
+}
+@keyframes slide{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+.ratings{
+    margin-right:10px;
+}
+.ratings i{
+    color:#cecece;
+    font-size:32px;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+.slider{
+    animation: 5s slide infinite linear;
+}
